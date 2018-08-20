@@ -1,0 +1,26 @@
+body {
+  font-family: courier;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.logo {
+  max-width: 25rem;
+}
+
+.blink {
+  animation: fade 1000ms infinite;
+  -webkit-animation: fade 1000ms infinite;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0; }
+    to { opacity: 1.0; }
+}
+
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0; }
+    to { opacity: 1.0; }
+}
