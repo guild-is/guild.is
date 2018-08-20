@@ -7,6 +7,10 @@ body {
 .logo-container { width: 25rem; }
 .logo { max-width: 25rem; }
 
+#email {
+  margin-left: -3px;
+}
+
 .blink {
   animation: fade 1000ms infinite;
   -webkit-animation: fade 1000ms infinite;
