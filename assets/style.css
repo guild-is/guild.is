@@ -4,9 +4,8 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.logo {
-  max-width: 25rem;
-}
+.logo-container { width: 25rem; }
+.logo { max-width: 25rem; }
 
 .blink {
   animation: fade 1000ms infinite;
