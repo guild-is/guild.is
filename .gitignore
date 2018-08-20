@@ -2,3 +2,4 @@
 _site
 .jekyll-metadata
 client_secret.json
+.sass-cache

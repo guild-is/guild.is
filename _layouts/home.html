@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>guild.is</title>
+
+    <link rel="stylesheet" href="assets/tachyons.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="flex justify-center items-center bg-black vh-100 w-100 white pa3">
+      <img class="logo" src="assets/logo.svg" />
+
+      <div class="flex items-center fixed bottom-0 left-0 pa3 fw6 tracked-tight f6 f5-ns">
+        <span class="mr3">
+          Newsletter
+        </span>
+
+        <div class="flex relative">
+          <div class="absolute blink" id="cursor">_</div>
+          <input class="bg-transparent ba b--black gray fw6 f5 z-999 mr3" id="email" type="text" />
+        </div>
+
+        <a class="no-underline dark-gray dn" id="signup" href="#">
+          Sign up
+        </a>
+      </div>
+    </div>
+
+    <script src="assets/guild.js"></script>
+  </body>
+</html>
