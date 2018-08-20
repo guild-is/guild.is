@@ -1,0 +1,23 @@
+.content {
+  margin: 30px;
+}
+
+.project_category {
+  margin: 0px;
+}
+
+ul {
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+.project_category {
+  font-weight: bold;
+}
+
+li {
+  text-indent: -0.5em;
+  margin-bottom: 0.3em;
+}
