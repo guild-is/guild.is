@@ -11,7 +11,6 @@ PDFKit.configure do |config|
   config.default_options[:load_error_handling] = 'ignore'
   config.wkhtmltopdf = `which wkhtmltopdf`.chomp
   config.verbose = true
-  config.threadsafe!
 end
 
 service = Google::Apis::SheetsV4::SheetsService.new
