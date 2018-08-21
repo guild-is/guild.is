@@ -28,7 +28,7 @@ template = File.read('./cv.html.erb')
 erb = ERB.new(template)
 html = erb.result(binding)
 
-kit = PDFKit.new(html, :page_size => 'A4', 'dpi' => 400)
+kit = PDFKit.new(html, :page_size => 'A4', 'dpi' => 300)
 kit.stylesheets << 'style.css'
 
 PDFKIT_OUTFILE = ENV['PDFKIT_OUTFILE'] || raise('no $PDFKIT_OUTFILE provided')
