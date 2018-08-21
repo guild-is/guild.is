@@ -8,7 +8,6 @@ require 'erb'
 SCOPE = Google::Apis::SheetsV4::AUTH_SPREADSHEETS_READONLY
 
 PDFKit.configure do |config|
-  config.default_options[:load_error_handling] = 'ignore'
   config.wkhtmltopdf = `which wkhtmltopdf`.chomp
   config.verbose = true
 end
@@ -28,7 +27,7 @@ template = File.read('./cv.html.erb')
 erb = ERB.new(template)
 html = erb.result(binding)
 
-kit = PDFKit.new(html, :page_size => 'Letter')
+kit = PDFKit.new(html, :page_size => 'A4', 'dpi' => 400)
 kit.stylesheets << 'style.css'
 
 PDFKIT_OUTFILE = ENV['PDFKIT_OUTFILE'] || raise('no $PDFKIT_OUTFILE provided')

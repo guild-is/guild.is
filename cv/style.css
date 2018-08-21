@@ -1,3 +1,7 @@
+body {
+  font-family: "Times New Roman";
+  font-size: 9pt;
+}
 .content {
   margin: 30px;
 }
