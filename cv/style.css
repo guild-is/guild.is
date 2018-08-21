@@ -4,19 +4,9 @@
   font-weight: normal;
   font-style: normal;
 }
-/*
-@font-face {
-  font-family: 'PT Serif2';
-  src: url( '/PT_Serif/PT_Serif-Web-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: bold;
-}
-*/
-
 
 body {
   font-family: 'PT Serif', serif;
-  font-weight: 400;
   font-size: 12px;
 }
 .content {
@@ -35,7 +25,7 @@ ul {
 }
 
 .project_category {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 li {
