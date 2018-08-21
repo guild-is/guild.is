@@ -7,7 +7,7 @@ WIP website for `guild.is` using `jekyll`. Deployed automatically using `netlify
 
 ## Building cv.pdf
 
-The cv.pdf file gets built by running `./build_cv.sh` which creates the cv in /assets/cv.pdf
+The cv.pdf file gets built by running `./build_cv.sh` which creates the cv in ./cv.pdf
 
 Make sure you have the following environment variables set for communication with the GoogleSheets API:
 ```
