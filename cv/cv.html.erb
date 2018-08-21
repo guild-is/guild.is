@@ -4,12 +4,12 @@
 </HEAD>
 <BODY>
   <DIV class='content'>
-    <% records_by_cat.each do |category, records| %>
+    <% records_by_category.each do |category, records| %>
       <p class="project_category"><%= category %></p>
       <ul>
       <% records.each do |record| %>
         <li class="project_title">
-          <span class="year"><%= record[4][4..-1] %></span>
+          <span class="year"><%= record[4].nil? ? "" : record[4][4..-1] %></span>
           <a href="<%=record[1]%>"><%= record[0] %></a>
           <span class="authors"><%= record[2] %></span>
         </li>
