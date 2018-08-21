@@ -1,5 +1,6 @@
 .DS_Store
 _site
 .jekyll-metadata
-client_secret.json
 .sass-cache
+cv.pdf
+.env
