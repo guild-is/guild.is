@@ -32,3 +32,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem 'google-api-client', '~> 0.23'
 gem 'pdfkit', '~> 0.8'
 gem 'wkhtmltopdf'
+gem 'wkhtmltopdf-binary'

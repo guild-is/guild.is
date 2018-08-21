@@ -100,6 +100,7 @@ GEM
       multi_json (~> 1.10)
     uber (0.1.0)
     wkhtmltopdf (0.1.2)
+    wkhtmltopdf-binary (0.12.4)
 
 PLATFORMS
   ruby
@@ -112,6 +113,7 @@ DEPENDENCIES
   pdfkit (~> 0.8)
   tzinfo-data
   wkhtmltopdf
+  wkhtmltopdf-binary
 
 BUNDLED WITH
    1.16.3
