@@ -8,6 +8,7 @@ require 'erb'
 SCOPE = Google::Apis::SheetsV4::AUTH_SPREADSHEETS_READONLY
 
 PDFKit.configure do |config|
+  #config.default_options = {:javascript_delay => 5000}
   config.wkhtmltopdf = `which wkhtmltopdf`.chomp
   config.verbose = true
 end
