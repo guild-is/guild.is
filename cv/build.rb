@@ -13,7 +13,7 @@ SCOPE = Google::Apis::SheetsV4::AUTH_SPREADSHEETS_READONLY
 
 PDFKit.configure do |config|
   config.default_options[:load_error_handling] = 'ignore'
-  config.wkhtmltopdf = ENV['WKHTMLTOPDF_PATH'] || "/usr/local/bin/wkhtmltopdf"
+  config.wkhtmltopdf = `which wkhtmltopdf`.chomp
   config.verbose = true
 end
 
