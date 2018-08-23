@@ -4,8 +4,12 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.logo-container { width: 25rem; }
+.logo-container {
+  width: 25rem;
+  outline: none;
+}
 .logo { max-width: 25rem; }
+.logo:active { opacity: 0.8; }
 
 #email {
   margin-left: -2px;
