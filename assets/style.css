@@ -19,8 +19,6 @@ body {
   padding-top: 200px;
   max-width: 400px;
 }
-.logo { max-width: 25rem; }
-.logo:active { opacity: 0.8; }
 
 #email {
   margin-left: -2px;
