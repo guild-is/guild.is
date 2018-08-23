@@ -7,9 +7,18 @@ body {
 .logo-container {
   width: 25rem;
   outline: none;
+  z-index: 2;
 }
-.logo { max-width: 25rem; }
+.logo {
+  max-width: 25rem;
+  margin-top: -130px;
+}
 .logo:active { opacity: 0.8; }
+
+#tagline {
+  padding-top: 200px;
+  max-width: 400px;
+}
 
 #email {
   margin-left: -2px;
