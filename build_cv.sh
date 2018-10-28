@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 export PDFKIT_OUTFILE=$PWD/cv.pdf 
 
