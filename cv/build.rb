@@ -28,9 +28,15 @@ template = File.read('./cv.html.erb')
 erb = ERB.new(template)
 html = erb.result(binding)
 
-kit = PDFKit.new(html, :page_size => 'A4', 'dpi' => 300)
-kit.stylesheets << 'style.css'
+# kit = PDFKit.new(html, :page_size => 'A4', 'dpi' => 300)
+# kit.stylesheets << 'style.css'
 
-PDFKIT_OUTFILE = ENV['PDFKIT_OUTFILE'] || raise('no $PDFKIT_OUTFILE provided')
+# PDFKIT_OUTFILE = ENV['PDFKIT_OUTFILE'] || raise('no $PDFKIT_OUTFILE provided')
 
-file = kit.to_file(PDFKIT_OUTFILE)
+# file = kit.to_file(PDFKIT_OUTFILE)
+
+File.open("cv.html", 'w') do |f|
+  f.write(html)
+end
+
+
