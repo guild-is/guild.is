@@ -2,4 +2,4 @@
 
 export PDFKIT_OUTFILE=$PWD/cv.pdf 
 
-cd cv && bundle exec ruby build.rb
+cd cv && bundle exec ruby build.rb && cp style.css ../_site/cv/
