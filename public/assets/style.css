@@ -1,0 +1,44 @@
+body {
+  font-family: 'IBM Plex Mono', monospace;	
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo-container {
+  width: 25rem;
+  outline: none;
+  z-index: 2;
+}
+.logo {
+  max-width: 25rem;
+  margin-top: -130px;
+  webkit-filter: invert(1);
+  filter: invert(1);
+}
+.logo:active { opacity: 0.8; }
+
+#tagline {
+  padding-top: 200px;
+  max-width: 600px;
+}
+
+#email {
+  margin-left: -2px;
+}
+
+.blink {
+  animation: fade 1000ms infinite;
+  -webkit-animation: fade 1000ms infinite;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0; }
+    to { opacity: 1.0; }
+}
+
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0; }
+    to { opacity: 1.0; }
+}
