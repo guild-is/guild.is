@@ -1,6 +1,3 @@
 .DS_Store
-_site
-.jekyll-metadata
-.sass-cache
-cv.pdf
 .env
+public/cv.html
