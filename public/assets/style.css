@@ -12,6 +12,8 @@ body {
 .logo {
   max-width: 25rem;
   margin-top: -130px;
+  webkit-filter: invert(1);
+  filter: invert(1);
 }
 .logo:active { opacity: 0.8; }
 
