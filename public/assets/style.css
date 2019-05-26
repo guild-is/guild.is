@@ -4,6 +4,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#mce-EMAIL:not(:placeholder-shown) {
+	background: black;
+}
+#mce-EMAIL:placeholder-shown {
+	background: none;
+}
+#mce-EMAIL:focus {
+	background: black;
+}
+
 .logo-container {
   width: 25rem;
   outline: none;
