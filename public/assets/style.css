@@ -12,6 +12,7 @@ body {
 	width: 400px;
 	background: black;
 	z-index: 600;
+  outline: none;
 }
 #mce-EMAIL:not(:placeholder-shown) {
 	z-index: 700;
