@@ -19,8 +19,7 @@ a, a:visited, a:active {
 }
 
 ul {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin: 0.5em 0 05em 2.9em;
   list-style: none;
   padding-left: 0;
 }
@@ -30,7 +29,7 @@ ul {
 }
 
 li {
-  text-indent: 0;
+  text-indent: -2.9em;
   margin: 0.5em 0;
   line-height: 1.3em;
 }
