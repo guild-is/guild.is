@@ -4,6 +4,46 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#cursor {
+	z-index: 650;
+}
+
+#mce-EMAIL {
+	width: 400px;
+	background: black;
+	z-index: 600;
+}
+#mce-EMAIL:not(:placeholder-shown) {
+	z-index: 700;
+	width: 245px;
+}
+#mce-EMAIL:placeholder-shown {
+	z-index: 600;
+}
+#mce-EMAIL:focus {
+	z-index: 700;
+}
+
+#mc-embedded-subscribe {
+	margin: 0 0 0 250px !important;
+	z-index: 550;
+	color: white;
+	cursor: pointer;
+}
+#mc-embedded-subscribe:focus {
+        outline:none;
+}
+
+div.mce_inline_error {
+	display: none !important;
+}
+
+#mce-responses {
+	z-index: 900;
+	color: gray;
+	background: black;
+}
+
 .logo-container {
   width: 25rem;
   outline: none;
