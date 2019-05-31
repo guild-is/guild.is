@@ -15,7 +15,7 @@ spreadsheet_id = '15j1gEDL3bEoQeY7R49JwX1ZtSD-xqy2QdVsDjo5JEz0'
 range = 'Guild Track Record!A2:E'
 response = service.get_spreadsheet_values(spreadsheet_id, range)
 
-records_by_category = response.values.group_by { |record| record[3] }
+records_by_category = response.values.sort_by { |record| record[3,1] }.group_by { |record| record[3] }
 
 template = File.read('views/cv.html.erb')
 erb = ERB.new(template)

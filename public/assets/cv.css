@@ -7,7 +7,8 @@ body {
   color: white;
 }
 .content {
-  margin: 40px;
+  margin: 40px auto;
+  max-width: 750px
 }
 
 a, a:visited, a:active {
@@ -15,21 +16,29 @@ a, a:visited, a:active {
 }
 
 .project_category {
-  margin: 1.2em 0;
+  margin: 3em 0 1.5em 0;
 }
 
-ul {
-  margin: 0.5em 0 05em 2.9em;
+table {
+  margin: 0.5em 0;
   list-style: none;
   padding-left: 0;
+  font-size: 12px;
 }
 
 .project_category {
   font-weight: 700;
 }
 
-li {
-  text-indent: -2.9em;
-  margin: 0.5em 0;
+tr {
   line-height: 1.3em;
+  text-align: left;
+  vertical-align: top;
+}
+
+.project {
+  padding-left: 0.5em;
+}
+.year {
+	width: 2.5em;
 }
