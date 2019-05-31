@@ -6,6 +6,7 @@ body {
   background: black;
   color: white;
 }
+
 .content {
   margin: 40px auto;
   max-width: 750px
@@ -28,6 +29,10 @@ table {
 
 .project_category {
   font-weight: 700;
+}
+
+th {
+  font-weight: normal;
 }
 
 tr {
