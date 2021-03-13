@@ -20,3 +20,4 @@ export GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n*****************\n-----
 ## Automatic building of cv
 
 In addition to being rebuilt by netlify on every push to github, the cv also has a netlify build-hook in place, so that you can directly trigger a new build from the "Guild Track Record" google spreadsheet. Ask @cory or @hxrts if you can't find the spreadsheet!
+
