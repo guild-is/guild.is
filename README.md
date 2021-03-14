@@ -2,7 +2,7 @@
 
 WIP website for `guild.is`. Deployed automatically using `netlify`.
 
-The site consists of a static index page available at [public/index.html](public/index.html), and a cv.html that is published via a build script.
+The site consists of a static index page available at [docs/index.html](docs/index.html), and a cv.html that is published via a build script.
 
 ## Building cv.html
 

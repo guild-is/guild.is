@@ -21,6 +21,6 @@ template = File.read('views/cv.html.erb')
 erb = ERB.new(template)
 html = erb.result(binding)
 
-File.open("public/cv.html", 'w') do |f|
+File.open("docs/cv.html", 'w') do |f|
   f.write(html)
 end
