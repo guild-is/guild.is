@@ -10,7 +10,7 @@
       <table>
       <% records.each do |record| %>
         <tr class="project_title">
-	<th class="year"><span><%= record[4].nil? ? "" : record[4][4..-1] %></span></th>
+	<th class="year"><span><%= record[4].nil? ? "" : record[4] %></span></th>
 	  <th class="project">
             <a href="<%=record[1]%>"><%= record[0] %></a>
 	    <span class="authors"><%= record[2] %></span>
